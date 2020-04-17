@@ -11,5 +11,15 @@ This app was created to contribute to the supermarket/deli industry, where emplo
    1. To check if this has been successfully installed, run the following command in your terminal - `node --version`
 3. Following Node.js installation, run `npm i` to install all necessary dependencies for this application.
 4. In one tab in the terminal, run `node server.js` to start the Node.js server needed to communicate with the front-end.
+   1. If this server is successfully spun up, the console in the terminal should say `Listening on Port ****`
 5. While the Node.js server is running, open another tab in the same repository directory and run `npm start` to start the front-end application.
 6. In your browser, navigate to `http://localhost:3000` to view the deli product inventory!
+7. When you're done working with the app, exit both servers by using Ctrl+C (or command+C).
+
+## How to Use The App
+
+This app includes a few features:
+- a comprehensive list of all the deli products available in the store
+- a more detailed view of any individual deli product selected from the list
+- a form where additional products can be entered (as long as all fields are completed)
+

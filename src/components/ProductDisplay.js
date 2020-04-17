@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import "../styles/ProductDisplay.css";
 
 const ProductDisplay = () => {
-  let { id } = useParams();
   const [product, setProduct] = useState(null);
+  let { id } = useParams();
 
   useEffect(() => {
     fetch(`/products/${id}`)
@@ -18,7 +18,7 @@ const ProductDisplay = () => {
         setProduct(body);
       })
       .catch((error) => console.log(`error with fetching product #${id}`));
-  }, []);
+  });
 
   if (product === null) {
     return (

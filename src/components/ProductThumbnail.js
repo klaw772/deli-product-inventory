@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "../styles/ProductThumbnail.css";
 
 const ProductThumbnail = ({
-  key,
   id,
   brandName,
   productName,
