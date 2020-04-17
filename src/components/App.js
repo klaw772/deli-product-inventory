@@ -7,7 +7,6 @@ import ProductDisplay from "./ProductDisplay";
 import SubmitProductForm from "./SubmitProductForm";
 
 const App = () => {
-
   const addProduct = (newProduct) => {
     fetch("/products", {
       method: "POST",
@@ -19,7 +18,6 @@ const App = () => {
           return response;
         } else throw new Error();
       })
-      .then((response) => response.json())
       .catch((error) => console.log("error with posting data"));
   };
   return (

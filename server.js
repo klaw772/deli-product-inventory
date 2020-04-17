@@ -36,7 +36,7 @@ app.post('/products', (req, res) => {
     parsedProductData.products.push(productToAdd);
 
     fs.writeFileSync('data.json', JSON.stringify(parsedProductData));
-    return res.redirect('/')
+    res.status(200).send('Submitted')
 })
 
 app.listen(port, () => {
