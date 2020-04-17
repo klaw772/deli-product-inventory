@@ -1,0 +1,14 @@
+input[type="text"] {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 2em;
+    line-height: 3em;
+    border-radius: 5px;
+}
+
+#formDiv {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+

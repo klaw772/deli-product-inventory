@@ -13,3 +13,7 @@
 .productDisplayRow > .itemDescriptions {
     text-align: left;
 }
+
+.loading {
+    margin-left: 20%;
+}
