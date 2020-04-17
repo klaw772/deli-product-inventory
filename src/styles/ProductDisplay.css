@@ -1,0 +1,15 @@
+.productDisplayRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 20%;
+}
+
+.productDisplayRow > img {
+    width: 33%;
+    height: auto;
+}
+
+.productDisplayRow > .itemDescriptions {
+    text-align: left;
+}

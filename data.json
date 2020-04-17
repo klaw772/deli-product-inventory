@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brandName": "Kayem",
+      "productName": "Bologna",
+      "dollarsPerPound": 4.49,
+      "image": "https://www.kayem.com/wp-content/uploads/2018/06/KYM_1103_OrignlBolo_8x10_300_Large-1095px.png"
+    },
+    {
+      "id": 2,
+      "brandName": "Kayem",
+      "productName": "Honey Ham",
+      "dollarsPerPound": 7.99,
+      "image": "https://www.kayem.com/wp-content/uploads/2018/06/KYM_2950_AmbrHnyHam_8x10_300_Large-1095px.png"
+    },
+    {
+      "id": 3,
+      "brandName": "Kretschmar",
+      "productName": "Black Forest Ham",
+      "dollarsPerPound": 7.99,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_ba27aa9e-2961-4c21-ac98-4244bc083389?wid=488&hei=488&fmt=pjpeg"
+    },
+    {
+      "id": 4,
+      "brandName": "Kretschmar",
+      "productName": "Peppered Turkey Breast",
+      "dollarsPerPound": 6.49,
+      "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6070cd50-6cdc-4dd9-b1f5-7697509bd9ec.jpg"
+    },
+    {
+      "id": 5,
+      "brandName": "Land O Lakes",
+      "productName": "White American Cheese",
+      "dollarsPerPound": 4.99,
+      "image": "https://www.meijer.com/content/dam/meijer/product/0021/55/6600/00/0021556600000_2_A1C1_1200.png"
+    },
+    {
+      "id": 6,
+      "brandName": "Kerrygold",
+      "productName": "Swiss Cheese",
+      "dollarsPerPound": 9.99,
+      "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12aafc3d-e055-47f6-a97e-7502fbc3ba84.jpeg"
+    }
+  ]
+}
