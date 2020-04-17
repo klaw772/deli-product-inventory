@@ -8,9 +8,12 @@ import ProductDisplay from "./ProductDisplay";
 const App = () => {
   return (
     <div>
-      <header>
-        <NavBar />
+      <header className="siteHeader">
+        <h1>Deli Product Inventory</h1>
       </header>
+      <section>
+        <NavBar />
+      </section>
       <section>
         <Switch>
           <Route exact path="/products" component={ProductContainer} />
