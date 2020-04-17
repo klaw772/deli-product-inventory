@@ -13,6 +13,7 @@ This app was created to contribute to the supermarket/deli industry, where emplo
 4. In one tab in the terminal, run `node server.js` to start the Node.js server needed to communicate with the front-end.
    1. If this server is successfully spun up, the console in the terminal should say `Listening on Port ****`
 5. While the Node.js server is running, open another tab in the same repository directory and run `npm start` to start the front-end application.
+   1. This will kick off code compilation - when completed, the console in this tab should read `Compiled successfully!`
 6. In your browser, navigate to `http://localhost:3000` to view the deli product inventory!
 7. When you're done working with the app, exit both servers by using Ctrl+C (or command+C).
 
