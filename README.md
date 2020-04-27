@@ -20,7 +20,7 @@ This app was created to contribute to the supermarket/deli industry, where emplo
 ## How to Use The App
 
 This app includes a few features:
+
 - a comprehensive list of all the deli products available in the store
 - a more detailed view of any individual deli product selected from the list
 - a form where additional products can be entered (as long as all fields are completed)
-

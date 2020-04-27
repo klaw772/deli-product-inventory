@@ -2,12 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/ProductThumbnail.css";
 
-const ProductThumbnail = ({
-  id,
-  brandName,
-  productName,
-  imageUrl,
-}) => {
+const ProductThumbnail = ({ id, brandName, productName, imageUrl }) => {
   return (
     <div className="thumbnail">
       <Link to={`/products/${id}`}>

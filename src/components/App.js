@@ -34,7 +34,7 @@ const App = () => {
             <ProductContainer />
           </Route>
           <Route exact path="/products/add">
-            <SubmitProductForm addProduct={addProduct}/>
+            <SubmitProductForm addProduct={addProduct} />
           </Route>
           <Route exact path="/products/:id">
             <ProductDisplay />
