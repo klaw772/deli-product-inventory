@@ -61,11 +61,12 @@ const SubmitProductForm = ({ addProduct }) => {
   return (
     <>
       <h1 className="submitHeader">Submit to Deli Inventory</h1>
-      <form onSubmit={handleSubmit}>
+      <form data-testid="submitProductForm" onSubmit={handleSubmit}>
         <div id="formDiv">
           <div className="inputDiv">
             <input
               id="brandName"
+              data-testid="brandName"
               type="text"
               placeholder="Brand Name"
               value={brandName}
@@ -75,6 +76,7 @@ const SubmitProductForm = ({ addProduct }) => {
           <div className="inputDiv">
             <input
               id="productName"
+              data-testid="productName"
               type="text"
               placeholder="Product Name"
               value={productName}
@@ -85,6 +87,7 @@ const SubmitProductForm = ({ addProduct }) => {
             $
             <input
               id="dollarsPerPound"
+              data-testid="dollarsPerPound"
               type="text"
               placeholder="Dollars Per Pound"
               value={dollarsPerPound}
@@ -94,13 +97,19 @@ const SubmitProductForm = ({ addProduct }) => {
           <div className="inputDiv">
             <input
               id="image"
+              data-testid="image"
               type="text"
               placeholder="Link to Image"
               value={image}
               onChange={handleImageChange}
             />
           </div>
-          <input type="submit" value="Submit" onSubmit={handleSubmit} />
+          <input
+            data-testid="submitButton"
+            type="submit"
+            value="Submit"
+            onSubmit={handleSubmit}
+          />
           <p>{submitMessage}</p>
         </div>
       </form>
