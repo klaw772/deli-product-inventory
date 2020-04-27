@@ -24,3 +24,8 @@ This app includes a few features:
 - a comprehensive list of all the deli products available in the store
 - a more detailed view of any individual deli product selected from the list
 - a form where additional products can be entered (as long as all fields are completed)
+
+## To Run The Testing Suite
+
+1. Navigate to the repository directory in the terminal.
+2. Run `npm test` to open the testing environment. Once opened, enter `a` to run the entire test suite.
